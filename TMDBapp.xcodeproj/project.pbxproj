@@ -13,6 +13,10 @@
 		63527FB6278C7B1A00A62D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63527FB4278C7B1A00A62D52 /* Main.storyboard */; };
 		63527FB8278C7B1D00A62D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63527FB7278C7B1D00A62D52 /* Assets.xcassets */; };
 		63527FBB278C7B1D00A62D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63527FB9278C7B1D00A62D52 /* LaunchScreen.storyboard */; };
+		63527FCF278C8BE000A62D52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63527FCE278C8BE000A62D52 /* Constants.swift */; };
+		63527FD5278C947C00A62D52 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63527FD2278C947C00A62D52 /* Results.swift */; };
+		63527FD6278C947C00A62D52 /* PopularPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63527FD3278C947C00A62D52 /* PopularPerson.swift */; };
+		63527FD7278C947C00A62D52 /* Known_for.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63527FD4278C947C00A62D52 /* Known_for.swift */; };
 		E0C79D4D0B624A4FEEA5684B /* Pods_TMDBapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D810E85CCE5561FA88D459 /* Pods_TMDBapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +30,10 @@
 		63527FB7278C7B1D00A62D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63527FBA278C7B1D00A62D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63527FBC278C7B1D00A62D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63527FCE278C8BE000A62D52 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		63527FD2278C947C00A62D52 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		63527FD3278C947C00A62D52 /* PopularPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularPerson.swift; sourceTree = "<group>"; };
+		63527FD4278C947C00A62D52 /* Known_for.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Known_for.swift; sourceTree = "<group>"; };
 		E9BEA3DAA6712ADE02AAC600 /* Pods-TMDBapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBapp.release.xcconfig"; path = "Target Support Files/Pods-TMDBapp/Pods-TMDBapp.release.xcconfig"; sourceTree = "<group>"; };
 		F4972F7AE00735DB48D9D325 /* Pods-TMDBapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMDBapp.debug.xcconfig"; path = "Target Support Files/Pods-TMDBapp/Pods-TMDBapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +134,7 @@
 		63527FC8278C86B600A62D52 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				63527FCE278C8BE000A62D52 /* Constants.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -152,6 +161,9 @@
 		63527FCB278C899B00A62D52 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				63527FD3278C947C00A62D52 /* PopularPerson.swift */,
+				63527FD2278C947C00A62D52 /* Results.swift */,
+				63527FD4278C947C00A62D52 /* Known_for.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -305,6 +317,10 @@
 				63527FB3278C7B1A00A62D52 /* MediaViewController.swift in Sources */,
 				63527FAF278C7B1A00A62D52 /* AppDelegate.swift in Sources */,
 				63527FB1278C7B1A00A62D52 /* SceneDelegate.swift in Sources */,
+				63527FCF278C8BE000A62D52 /* Constants.swift in Sources */,
+				63527FD5278C947C00A62D52 /* Results.swift in Sources */,
+				63527FD6278C947C00A62D52 /* PopularPerson.swift in Sources */,
+				63527FD7278C947C00A62D52 /* Known_for.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,14 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MediaViewController: UIViewController {
 
     @IBOutlet weak var listOfFilmsTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
-
 
 }
 
