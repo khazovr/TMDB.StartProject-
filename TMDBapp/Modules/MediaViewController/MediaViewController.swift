@@ -8,13 +8,17 @@
 import UIKit
 
 class MediaViewController: UIViewController {
-
-    @IBOutlet weak var listOfFilmsTableView: UITableView!
+    
+    var viewModel: MediaViewModel = MediaViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
     }
-
+    
 }
 
